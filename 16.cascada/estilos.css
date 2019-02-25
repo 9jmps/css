@@ -1,0 +1,33 @@
+body{
+    border: solid black;
+    padding:20px;
+}
+
+
+h1{
+    margin:10px;
+    color:blue !important;
+
+}
+h1{
+    margin:10px;
+    color:red !important;
+
+}
+h1{
+    margin:10px;
+    color:green !important;
+
+}
+
+.parrafo{
+    color:blue;
+}
+#parrofo-1
+{
+    color:red;
+}
+.introduccion
+{
+    color:green;
+}

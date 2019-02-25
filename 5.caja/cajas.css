@@ -1,0 +1,32 @@
+#encabezado,#pie{
+    background-color:blueviolet;
+    color:white;
+    border-color: black;
+    border-style: solid;
+    border-width: 20px;
+    border: darkblue solid 20px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding: 40px 100px 20px 30px;
+    font-size:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    margin:auto;
+
+}
+
+#contenido{
+    background-color: yellow;
+    border:darkgreen solid 20px;
+    padding-right: 100px;
+    padding: 40px 100px 20px 30px;
+    font-size:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin: 20px 40px 30px;
+}

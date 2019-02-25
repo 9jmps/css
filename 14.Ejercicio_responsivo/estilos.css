@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+#logo{
+    background-color: rgb(38, 106, 196);
+}
+
+#menu{
+    background-color: rgb(233, 195, 24);
+}
+
+#slider
+{
+    background-color: green;
+}
+#articulo1
+{
+    background-color: rgb(15, 109, 218);
+}
+#articulo2
+{
+    background-color: green;
+}
+#articulo3
+{
+    background-color: rgb(26, 129, 129);
+}
+
+footer
+{
+    background-color: rgb(233, 195, 24);
+}
+
+#logotipo
+{
+    background-color: rgb(15, 109, 218);
+}
+
+#menu
+    {
+        background-color: rgb(233, 195, 24);
+
+    }
+
+@media (min-width: 500px)and (max-width:759px)
+{
+    #articulo1, #articulo2{
+        width:50%;
+        float: left;
+
+    }
+}
+
+@media(min-width: 760px)
+{
+    #articulo1, #articulo2,#articulo3{
+        width:33.3%;
+        float: left;
+
+    }
+    header{
+        overflow: auto;
+    }
+
+    #logo
+    {
+        width: 66.5px;
+        float: left;
+    }
+
+    #menu
+    {
+        width: 33.3px;
+        float: left;
+    }
+}
+
+header{
+
+}

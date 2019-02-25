@@ -1,0 +1,8 @@
+.flotante{
+
+    float:right;
+    width: 300px;
+    border-block-end-style:double;
+    border-block-start-style: double;
+    font-family:'Courier New', Courier, monospace;
+}

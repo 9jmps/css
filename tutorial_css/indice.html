@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>css</title>
+    <meta name="viewport# content" whidth="device-width, initial-scale=1">
+    <link rel="Stylesheet" href="./estilos.css">
+</head>
+
+<body>
+    <div>
+        <article id="header">
+
+            <h1 id="titulo">Tutorial de css</h1>
+            <p>Creado por: <strong>Juana Maria</strong></p>
+        </article>
+    </div>
+    <div>
+        <ul id="menu">
+            <li><a href="#"></a></li>
+            <li><a href="./modelo_cajas.html">Modelo cajas</a></li>
+            <li><a href="./indice.html">Display y Posicion</a></li>
+            <li><a href="./colores.html">Colores</a></li>
+            <li><a href="#">Typography</a></li>
+        </ul>
+    </div>
+
+    <article id="cuerpo">
+        <h1 id="title">Display y posicion</h1>
+        <br>
+        <h2 id="title">Display</h2>
+        <p id="contenido">
+            Display es la propiedad mas importante para controlar las estructuras.
+            Cada elemento tiene un valor por defecto para la mayoria de los elementos es usualmente
+            <strong>bloc</strong> (de bloque) o
+            <strong>inline</strong>(en linea). Un elemento que es block es comunmente llamado block-level.</p>
+        <br>
+        <strong>inline</strong>
+        <p>el span es el elemento inline estandar. un element inline puede contener algo de texto dentro de un parrafo
+            sin interrumpir el flujo del parrafo.
+        </p>
+
+        <h2 id="title">Posiscionamiento</h2>
+        <p id="contenido">
+            La propiedad <em>position</em> de CSS, especifica como un elemento es posicionado en el
+            documento, como un elemento es posicionado en el documento. las propiedades
+            <em><strong>top,right,bottom y left</strong></em> determinan la ubicacion final de los
+            elementos posicionados.<br>
+            Tipos de posicionamiento
+            Un Elemento posicionado:
+            Es un elemento cuyo valor computado de position es relative,absolute,fixed.
+            <ul>
+                <li><strong>Elemento Estatico:</strong>
+                    El elemento es posicionado de acuerdo al flujo normal del documento.Las propiedades
+                    top,right,bottom,leftl y z-index, no tiene efecto.Es el valor dado por defecto.
+                </li>
+                <li><strong>Elemento Relativo:</strong>
+                    El elemento es podicinado de acuerdo al fujo normal del documento, y luego es desplazado con
+                    relacion a si mismo, con base en los valores de top, right, bottom y left. El dezplazamiento no
+                    afecta la posicion de ningun otro elemento.
+                    <em>position:relative</em>.</li>
+                <li><strong>Elemento Absoluto:</strong>
+                    el elemento es removido del flujo normaldel docuemnto, sin crearse espacio alguno para el elementoen
+                    el esquema de la pagina. es posicionado relativo a su ancestro posicionado mas cercano.
+                    su posicion final esta determinada por los valore de top,right,bottm y left.
+                    <em>position:absolute</em>.</li>
+                <li><strong>Elemento Fijo:</strong>
+                    El elemento es removido del flujo normal del documento,sin crearse espaci alguno para el elemento de
+                    la pagina.
+                    Es posicionado con relacion al bloque contenedos.
+                    <em>position:fixed</em>.</li>
+            </ul>
+        </p>
+
+        <h2 id="title">z-index</h2>
+        <p>
+            La propiedad de css <strong>z-index</strong> indica el orden de un elemento y sus desendientes.Cuando varios
+            elementos se superponen, z-order determina cuales cubren a otros. </br>
+            Los valores que maneja son:
+            <ul>
+                <li><strong>auto:</strong>la caja no estalece un nuevo contexto de apilamiento </li>
+                <li><strong>integer</strong>Este entero es el nivel de apilamiento de la caja generada en el actual
+                    contexto de apilamiento.El nivel de apilamiento es 0.</li>
+            </ul>
+
+
+        </p>
+
+    </article>
+</body>
+
+</html>
